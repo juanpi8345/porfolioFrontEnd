@@ -1,0 +1,151 @@
+{
+    "nombre": "Juan Pregliasco",
+    "nombreCompleto": "Juan Pablo Pregliasco",
+    "posicion": "Desarrollador Web Full-Stack",
+    "nacimiento": "14/11/2003",
+    "nacionalidad": "Buenos Aires (Argentina)",
+    "telefono": "+541132312016",
+    "educacion": {
+        "primaria": "Colegio Eccleston Lanus",
+        "secundaria": "Colegio Eccleston Lanus",
+        "universidad": "Unla, licenciatura en sistemas, (en curso)"
+    },
+    "about": "Mi nombre es Juan Pablo Pregliasco, soy un desarrollador web full-stack y estudiante del area que busca aprender y superarse dia a dia, ya sea adquiriendo nuevos conocimientos o profundizando en los que ya se. Me considero una persona muy responsable, y actualmente busco un trabajo que me permita seguir creciendo profesionalmente.",
+    "image": "assets/img/Juan.jpg",
+    "education": [
+        {
+            "escuela": "Argentina programa",
+            "imagen": "assets/img/SeProgramar.png",
+            "titulo":"#Se Programar",
+            "desc": "Primera etapa de Argentina Programa",
+            "inicio": "16/06/2022",
+            "fin": "01/10/2022"
+        },
+        {
+            "escuela": "Universidad Nacional de Lanus",
+            "imagen": "assets/img/unla.png",
+            "titulo":"Licenciatura en sistemas",
+            "desc": "Licenciatura en sistemas & analista programador universitario",
+            "inicio": "2022",
+            "fin": "En curso"
+        },
+        {
+            "escuela": "Alumni & Digitalers",
+            "titulo":"Java Developer",
+            "desc": "Bootcamp Java Developer + HTML5, CSS3, JavaScript, React, MySQL y Git ",
+            "imagen": "assets/img/digitalers.jpeg",
+            "inicio": "15/05/2022",
+            "fin": "04/11/2022"
+        }
+    ],
+    "habilidades": {
+        "stack1": [
+            {
+                "imagen": "https://icon-library.com/images/html5-icon-png/html5-icon-png-9.jpg",
+                "titulo": "HTML5"
+            },
+            {
+                "imagen": "https://icons.veryicon.com/256/System/Hex/css%203.png",
+                "titulo": "CSS3"
+            },
+            {
+                "imagen": "https://logospng.org/download/bootstrap/bootstrap-256.png",
+                "titulo": "Bootstrap"
+            }
+        ],
+        "stack2": [
+            {
+                "imagen": "https://logospng.org/download/javascript/logo-javascript-icon-256.png",
+                "titulo": "JavaScript"
+            },
+            {
+                "imagen": "https://cdn.iconscout.com/icon/free/png-256/typescript-1174965.png",
+                "titulo": "TypeScript"
+            },
+            {
+                "imagen": "https://cdn.iconscout.com/icon/free/png-256/angular-3628622-3029847.png",
+                "titulo": "Angular"
+            },
+            {
+                "imagen": "https://cdn.iconscout.com/icon/free/png-256/jquery-7-1175152.png",
+                "titulo": "JQuery"
+            }
+        ],
+        "stack3": [
+            {
+                "imagen": "https://www.pngall.com/wp-content/uploads/2016/05/Java-PNG-Image.png",
+                "titulo": "Java"
+            },
+            {
+                "imagen": "https://www.eximoproject.pl/images/ico-base.png",
+                "titulo": "SQL Database"
+            }
+        ],
+        "stack4": [
+            {
+                "imagen": "https://www.shareicon.net/data/256x256/2015/09/02/94589_terminal_448x512.png",
+                "titulo": "CMD Windows"
+            },
+            {
+                "imagen": "https://cdn.iconscout.com/icon/free/png-256/git-225996.png",
+                "titulo": "Git & Github"
+            }
+        ]
+    },
+    "proyectos": [
+        {
+            "titulo": "Res X",
+            "imagen": "assets/img/resx.png",
+            "url": "https://restaurantex.netlify.app/"
+        },
+        {
+            "titulo": "BiCo",
+            "imagen": "assets/img/bico.png",
+            "url": "https://bicoo.netlify.app/"
+        },
+        {
+            "titulo": "Res Y",
+            "imagen": "assets/img/resy.png",
+            "url": "https://restaurantey.netlify.app/"
+        },
+        {
+            "titulo": "CRUD",
+            "imagen": "assets/img/crud.png",
+            "url": "https://crudindexed.netlify.app/"
+        },
+        {
+            "titulo": "Web Paint (No responsive)",
+            "imagen": "assets/img/web paint.png",
+            "url": "https://paintwebcanvas.netlify.app/"
+        },
+        
+        {
+            "titulo": "Carayas club",
+            "imagen": "assets/img/carayas.png",
+            "url": "https://howlercarayasclub.netlify.app/"
+        }
+
+    ],
+    "redes": [
+        {
+            "url":"https://wa.me/+541132312016",
+            "icono": "fa-brands fa-whatsapp whatsapp"
+        },
+        {
+            "url":"https://www.linkedin.com/in/juan-pregliasco-77b80b250/",
+            "icono": "fa-brands fa-linkedin linkedin"
+        },
+        {
+            "url":"mailto:juanpipre@outlook.com",
+            "icono": "fa-solid fa-envelope correo"
+        },
+        {
+            "url":"https://www.instagram.com/juanpi_pregliasco/",
+            "icono": "fa-brands fa-instagram instagram"
+        },
+        {
+            "url":"https://github.com/juanpi8345",
+            "icono": "fa-brands fa-github"
+        }
+    ]
+}

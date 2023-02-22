@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+
+a{
+    color: #fff;
+}
+
+body{
+    background-color: var(--bs-dark-bg-subtle);
+}
+
+.seccion{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aparecer{
+    animation: aparecer 1s forwards;
+}
+
+.desaparecer{
+    animation: desaparecer 1s forwards;
+}
+
+.card-mb{
+    display: flex;
+    justify-content: center!important;
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes desaparecer{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .margin-t-b-mb{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .col{
+        flex: none;
+    }
+
+    .columna-mb-100{
+        width: 100%!important;
+    }
+}
