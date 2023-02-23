@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import {HttpClientModule } from '@angular/common/http';
 import { ServiceService } from './services/porfolio.service';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { ServiceService } from './services/porfolio.service';
     AppComponent,
     HeaderComponent,
     AboutMeComponent,
+    FooterComponent,
     
   ],
   imports: [

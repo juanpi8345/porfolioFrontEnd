@@ -39,7 +39,17 @@
 
 .card-img-top{
     height: 400px;
-  
+}
+
+@media (max-width: 950px) {
+    .container{
+        width: 100%;
+    }
+
+    .card-img-top{
+        height: auto;
+    }
+
 }
 
 

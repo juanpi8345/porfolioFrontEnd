@@ -1,0 +1,48 @@
+footer{
+    background-color: #000;
+    position: fixed;
+}
+
+i{
+    font-size: 35px;
+    transition: all .4s ease;
+}
+
+i:hover{
+    transform: scale(1.2);
+}
+
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.container-fluid li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.container-fluid li:last-child{
+    margin-right: 0;
+}
+
+.wpp{
+   color: #25D366;
+}
+
+.outlook{
+    color: #50D9FF;
+}
+
+.linkedin{
+    color: #34aae1;
+}
+
+.github{
+    color: #171515;
+}
+
+

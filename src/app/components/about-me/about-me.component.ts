@@ -37,9 +37,9 @@ export class AboutMeComponent {
   }
 
   showProjects(){
+    this.projectVisibility = true;
     this.formacionVisibility = false;
     this.aboutVisibility = false;
-    this.projectVisibility = true;
   }
 
 }
