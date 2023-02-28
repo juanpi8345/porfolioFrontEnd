@@ -20,6 +20,8 @@ export class AboutMeComponent {
   ngOnInit(): void {
     this.porfolioData.getData().subscribe(data=>{
       this.data = data;
+     
+
 
     })
   }

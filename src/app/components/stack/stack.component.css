@@ -1,0 +1,27 @@
+h1,h4{
+    color: #fff;
+}
+
+
+img{
+    width: 7.2rem;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 5px;
+}
+
+.col{
+    flex: none;
+    width: 25%;
+}
+
+@media (max-width: 950px) {
+    .col{
+        width: 50%;
+    }
+
+    img{
+        width: 37%;
+    }
+
+}

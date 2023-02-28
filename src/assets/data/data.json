@@ -16,7 +16,7 @@
         {
             "escuela": "Argentina programa",
             "imagen": "assets/img/SeProgramar.png",
-            "titulo":"#Se Programar",
+            "titulo": "#Se Programar",
             "desc": "Primera etapa de Argentina Programa + Conceptos sobre POO",
             "inicio": "16/06/2022",
             "fin": "01/10/2022"
@@ -24,127 +24,141 @@
         {
             "escuela": "Universidad Nacional de Lanus",
             "imagen": "assets/img/unla.png",
-            "titulo":"Licenciatura en sistemas",
+            "titulo": "Licenciatura en sistemas",
             "desc": "Licenciatura en sistemas & analista programador universitario",
             "inicio": "2022",
             "fin": "En curso"
         },
         {
             "escuela": "Alumni & Digitalers",
-            "titulo":"Java Developer",
+            "titulo": "Java Developer",
             "desc": "Bootcamp Java Developer + HTML5, CSS3, JavaScript, React, MySQL y Git ",
             "imagen": "assets/img/digitalers.jpeg",
             "inicio": "15/05/2022",
             "fin": "04/11/2022"
         }
     ],
-    "habilidades": {
-        "stack1": [
+    "habilidades": [
+        {
+            "imagen": "https://icon-library.com/images/html5-icon-png/html5-icon-png-9.jpg",
+            "titulo": "HTML5"
+        },
+        {
+            "imagen": "https://icons.veryicon.com/256/System/Hex/css%203.png",
+            "titulo": "CSS3"
+        },
+        {
+            "imagen": "https://logospng.org/download/bootstrap/bootstrap-256.png",
+            "titulo": "Bootstrap"
+        },
+        {
+            "imagen": "https://logospng.org/download/javascript/logo-javascript-icon-256.png",
+            "titulo": "JavaScript"
+        },
+        {
+            "imagen": "https://cdn.iconscout.com/icon/free/png-256/typescript-1174965.png",
+            "titulo": "TypeScript"
+        },
+        {
+            "imagen": "https://cdn.iconscout.com/icon/free/png-256/jquery-7-1175152.png",
+            "titulo": "JQuery"
+        },
+        {
+            "imagen": "https://angular.io/assets/images/logos/angular/angular.png",
+            "titulo": "Angular"
+        },
+        {
+            "imagen": "https://www.pngall.com/wp-content/uploads/2016/05/Java-PNG-Image.png",
+            "titulo": "Java"
+        },
+        {
+            "imagen": "https://play-lh.googleusercontent.com/K9Jf-N8RWHDw2IZSY_vjSfIVm2X6jGN9riRIAK9nl_BgJxpYK2VQWQl-yPlCtBUTNasw",
+            "titulo": "Spring Boot"
+        },
+        {
+            "imagen": "https://www.eximoproject.pl/images/ico-base.png",
+            "titulo": "SQL Database"
+        },
+        {
+            "imagen": "https://www.shareicon.net/data/256x256/2015/09/02/94589_terminal_448x512.png",
+            "titulo": "CMD Windows"
+        },
+        {
+            "imagen": "https://cdn.iconscout.com/icon/free/png-256/git-225996.png",
+            "titulo": "Git & Github"
+        }
+    ],
+    "proyectos": {
+        "1": [
             {
-                "imagen": "https://icon-library.com/images/html5-icon-png/html5-icon-png-9.jpg",
-                "titulo": "HTML5"
+                "id":1,
+                "titulo": "Res-X",
+                "imagen1": "assets/img/resx1.png",
+                "imagen2": "assets/img/resx2.png",
+                "imagen3": "assets/img/resx3.png",
+                "desc": "Pagina web de un restaurante ficticio, llamado Restaurante X, realizada con HTML5, CSS3, JavaScript y JQuery.",
+                "url": "https://restaurantex.netlify.app/"
             },
             {
-                "imagen": "https://icons.veryicon.com/256/System/Hex/css%203.png",
-                "titulo": "CSS3"
+                "id":2,
+                "titulo": "BiCo",
+                "imagen1": "assets/img/bico1.png",
+                "imagen2": "assets/img/bico2.png",
+                "imagen3": "assets/img/bico3.png",
+                "desc": "Imitacion de una pagina web de 'Wix', con el objetivo de potenciar el desarrollo de habilidades front-end de manera nativa, con HTML5, CSS3 y JavaScript",
+                "url": "https://bicoo.netlify.app/"
             },
             {
-                "imagen": "https://logospng.org/download/bootstrap/bootstrap-256.png",
-                "titulo": "Bootstrap"
+                "id":3,
+                "titulo": "Res-Y",
+                "imagen1": "assets/img/resy.png",
+                "imagen2": "assets/img/resy2.png",
+                "imagen3": "assets/img/resy3.png",
+                "desc": "Pagina web de un restaurante ficticio, llamado Restaurante Y, realizada con HTML5, CSS3, JavaScript y JQuery.",
+                "url": "https://restaurantey.netlify.app/"
+            },
+            {
+                "id":4,
+                "titulo": "CRUD",
+                "imagen1": "assets/img/crud.png",
+                "imagen2": "assets/img/crud2.png",
+                "imagen3": "assets/img/crud3.png",
+                "desc": "Crud realizado con JavaScript, uso de indexedDB, (base de datos no relacional y asincronica)",
+                "url": "https://crudindexed.netlify.app/"
             }
         ],
-        "stack2": [
+        "2":[
             {
-                "imagen": "https://logospng.org/download/javascript/logo-javascript-icon-256.png",
-                "titulo": "JavaScript"
-            },
-            {
-                "imagen": "https://cdn.iconscout.com/icon/free/png-256/typescript-1174965.png",
-                "titulo": "TypeScript"
-            },
-            {
-                "imagen": "https://cdn.iconscout.com/icon/free/png-256/angular-3628622-3029847.png",
-                "titulo": "Angular"
-            },
-            {
-                "imagen": "https://cdn.iconscout.com/icon/free/png-256/jquery-7-1175152.png",
-                "titulo": "JQuery"
-            }
-        ],
-        "stack3": [
-            {
-                "imagen": "https://www.pngall.com/wp-content/uploads/2016/05/Java-PNG-Image.png",
-                "titulo": "Java"
-            },
-            {
-                "imagen": "https://www.eximoproject.pl/images/ico-base.png",
-                "titulo": "SQL Database"
-            }
-        ],
-        "stack4": [
-            {
-                "imagen": "https://www.shareicon.net/data/256x256/2015/09/02/94589_terminal_448x512.png",
-                "titulo": "CMD Windows"
-            },
-            {
-                "imagen": "https://cdn.iconscout.com/icon/free/png-256/git-225996.png",
-                "titulo": "Git & Github"
+                "id":1,
+                "titulo": "Web-Paint",
+                "imagen1": "assets/img/webpaint.png",
+                "imagen2": "assets/img/webpaint2.png",
+                "imagen3": "assets/img/webpaint3.png",
+                "desc": "Web paint realizado con JavaScript, con el uso de la API que proporciona el lenguaje, (Canvas)",
+                "url": "https://paintwebcanvas.netlify.app/"
             }
         ]
-    },
-    "proyectos": [
-        {
-            "titulo": "Res X",
-            "imagen": "assets/img/resx.png",
-            "url": "https://restaurantex.netlify.app/"
-        },
-        {
-            "titulo": "BiCo",
-            "imagen": "assets/img/bico.png",
-            "url": "https://bicoo.netlify.app/"
-        },
-        {
-            "titulo": "Res Y",
-            "imagen": "assets/img/resy.png",
-            "url": "https://restaurantey.netlify.app/"
-        },
-        {
-            "titulo": "CRUD",
-            "imagen": "assets/img/crud.png",
-            "url": "https://crudindexed.netlify.app/"
-        },
-        {
-            "titulo": "Web Paint (No responsive)",
-            "imagen": "assets/img/web paint.png",
-            "url": "https://paintwebcanvas.netlify.app/"
-        },
-        
-        {
-            "titulo": "Carayas club",
-            "imagen": "assets/img/carayas.png",
-            "url": "https://howlercarayasclub.netlify.app/"
-        }
 
-    ],
+    },
     "redes": [
         {
-            "url":"https://wa.me/+541132312016",
+            "url": "https://wa.me/+541132312016",
             "icono": "fa-brands fa-whatsapp whatsapp"
         },
         {
-            "url":"https://www.linkedin.com/in/juan-pregliasco-77b80b250/",
+            "url": "https://www.linkedin.com/in/juan-pregliasco-77b80b250/",
             "icono": "fa-brands fa-linkedin linkedin"
         },
         {
-            "url":"mailto:juanpipre@outlook.com",
+            "url": "mailto:juanpipre@outlook.com",
             "icono": "fa-solid fa-envelope correo"
         },
         {
-            "url":"https://www.instagram.com/juanpi_pregliasco/",
+            "url": "https://www.instagram.com/juanpi_pregliasco/",
             "icono": "fa-brands fa-instagram instagram"
         },
         {
-            "url":"https://github.com/juanpi8345",
+            "url": "https://github.com/juanpi8345",
             "icono": "fa-brands fa-github"
         }
     ]

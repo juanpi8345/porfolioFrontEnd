@@ -13,4 +13,5 @@ export class ServiceService {
   getData():Observable<any>{
    return this.http.get('../assets/data/data.json');
   }
+
 }

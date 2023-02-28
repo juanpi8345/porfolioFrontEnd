@@ -1,7 +1,4 @@
-footer{
-    background-color: #000;
-    position: fixed;
-}
+
 
 i{
     font-size: 35px;
@@ -11,8 +8,6 @@ i{
 i:hover{
     transform: scale(1.2);
 }
-
-
 .container-fluid{
     display: flex;
     justify-content: center;

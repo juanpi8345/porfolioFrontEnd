@@ -1,0 +1,15 @@
+<section class="seccion aparecer">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="h1">Habilidades: </h1>
+            </div>
+        </div>
+        <div class="row align-items-center text-center seccion">
+            <div class="col seccion" *ngFor="let data of data.habilidades">
+                <img [src]="data.imagen" class="rounded mx-auto d-block" alt="...">
+                <h4 class="h4">{{data.titulo}}</h4>
+            </div>
+        </div>  
+    </div>
+</section>

@@ -1,0 +1,43 @@
+<app-header class="aparecer"></app-header>
+<div class="container aparecer">
+  <div class="row align-items-center text-center seccion">
+    <div class="col aparecer">
+      <h1 class="h1">{{proyecto.titulo}}</h1>
+    </div>
+    <div class="col aparecer">
+      <a class="btn btn-danger" href="{{proyecto.url}}" target="_blank">Ir al sitio</a>
+    </div>
+  </div>
+  <div class="row align-items-center text-center seccion">
+    <div class="col aparecer">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img [src]="proyecto.imagen1" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img [src]="proyecto.imagen2" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img [src]="proyecto.imagen3" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center text-center seccion">
+    <div class="col aparecer">
+      <a class="btn btn-outline-danger" routerLink="../">Volver a proyectos</a>
+    </div>
+  </div>
+</div>
+
+<app-footer class="aparecer"></app-footer>

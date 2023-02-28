@@ -7,6 +7,14 @@ a{
     color: #fff;
 }
 
+h1{
+    color: #fff;
+}
+
+.h1{
+    color: #fff;
+}
+
 body{
     background-color: var(--bs-dark-bg-subtle);
 }

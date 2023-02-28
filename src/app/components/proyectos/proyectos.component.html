@@ -1,0 +1,37 @@
+<app-header class="aparecer"></app-header>
+<section class="seccion aparecer">
+    <div class="container aparecer">
+        <div class="row">
+            <div class="col aparecer">
+                <blockquote class="blockquote">
+                    <h1>Proyectos</h1>
+                    <p>Debido a que no tengo experiencia laboral, decidi realizar mis propios proyectos...</p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col seccion width-50 aparecer col-mb-100" *ngFor="let item of data.proyectos[ruta]">
+                <div class="card bg-secondary aparecer" >
+                    <img [src]="item.imagen1" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                        <h5 class="card-title">{{item.titulo}}</h5>
+                        <p class="card-text">{{item.desc}}</p>
+                        <a routerLink="/proyectos/{{ruta}}/{{item.id}}"  class="btn btn-danger">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center text-center">
+            <div class="col seccion">
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <a routerLink="/proyectos/1" class="btn btn-outline-danger">1</a>
+                      <a routerLink="/proyectos/2" class="btn btn-outline-danger">2</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<app-footer class="aparecer"></app-footer>

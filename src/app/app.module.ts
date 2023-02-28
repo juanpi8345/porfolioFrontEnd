@@ -8,6 +8,12 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import {HttpClientModule } from '@angular/common/http';
 import { ServiceService } from './services/porfolio.service';
 import { FooterComponent } from './components/footer/footer.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { StackComponent } from './components/stack/stack.component';
+import { HabilidadesComponent } from './components/habilidades/habilidades.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { ProyectoComponent } from './components/proyecto/proyecto.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 
 @NgModule({
@@ -16,6 +22,12 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     AboutMeComponent,
     FooterComponent,
+    InicioComponent,
+    StackComponent,
+    HabilidadesComponent,
+    ProyectosComponent,
+    ProyectoComponent,
+    ContactoComponent,
     
   ],
   imports: [
